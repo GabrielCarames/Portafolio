@@ -1,0 +1,25 @@
+.wave {
+  background: url(wave.svg) repeat-x;
+  position: absolute;
+  top: -198px;
+  width: 6144px;
+  height: 198px;
+  animation: 11s cubic-bezier(0.36, 0.45, 0.63, 0.53) 0s infinite normal none running wave-animation;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.wave:nth-of-type(2) {
+  top: -174px;
+  animation: 11s cubic-bezier(0.4, 0.2, 0.2, 0.2) -0.124s infinite normal none running wave-animation,
+    11s ease -1.24s infinite normal none running swell;
+  opacity: 1;
+}
+
+@keyframes wave-animation {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
