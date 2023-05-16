@@ -7,7 +7,7 @@ import type { FC } from "react"
 
 const App: FC = () => {
   return (
-    <main className="h-screen font-sans bg-gradient-to-r from-light-violet to-blue relative text-white">
+    <main className="h-screen font-sans bg-gradient-to-r from-light-violet to-blue-1 relative text-white">
       <Navbar />
       <ResponsiveNavbar />
       <ParticlesBackground />
