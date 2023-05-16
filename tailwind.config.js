@@ -8,6 +8,11 @@ export default {
     extend: {
       colors: {
         "blue": "#2716a0",
+        "blue-2": "#49a4ff",
+        "blue-3": "#0074e7",
+        "blue-4": "#0080ff",
+        "green": "#1abc9c",
+        "light-green": "#57e694",
         "light-violet": "#9340ff"
       },
         screens: {
