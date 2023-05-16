@@ -13,7 +13,10 @@ export default {
         "blue-4": "#0080ff",
         "green-1": "#1abc9c",
         "light-green": "#57e694",
-        "light-violet": "#9340ff"
+        "violet-1": "#9340ff",
+        "violet-2": "#6100df",
+        "violet-3": "#615fda",
+        "white-2": "#f6f5f5"
       },
         screens: {
       'xs': '500px',
