@@ -11,3 +11,7 @@ export interface ButtonProps {
   iconClassName?: string
   onClick?: () => void
 }
+
+export interface TitleProps {
+  text: string
+}
