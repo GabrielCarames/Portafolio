@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <section className="hidden xs:block h-16 text-white  bg-[#ffffff0d] border-b border-b-[#ffffff1a]">
+    <header className="hidden xs:block w-full h-16 text-white bg-[#ffffff0d] border-b border-b-[#ffffff1a] fixed top-0 left-0">
       <nav className="h-full flex justify-center items-center">
         <ul className="flex gap-10 items-center h-full">
           <li className="w-24 h-full flex justify-center items-center hover:font-bold hover:border-b hover:border-b-white cursor-pointer duration-75">
@@ -17,7 +17,7 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-    </section>
+    </header>
   )
 }
 

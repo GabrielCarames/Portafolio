@@ -8,7 +8,7 @@ import {
 
 const ResponsiveNavbar = () => {
   return (
-    <section className="block xs:hidden w-full h-16 text-white bg-[#ffffff0d] border-b border-b-[#ffffff1a] absolute bottom-0">
+    <header className="block xs:hidden w-full h-16 text-white bg-[#ffffff0d] border-b border-b-[#ffffff1a] bottom-0 left-0 fixed">
       <nav className="h-full flex justify-center items-center">
         <ul className="w-full flex justify-between items-center h-full text-xs px-2">
           <li className="w-14 h-full flex flex-col justify-center items-center hover:font-bold hover:border-b hover:border-b-white cursor-pointer duration-75">
@@ -33,7 +33,7 @@ const ResponsiveNavbar = () => {
           </li>
         </ul>
       </nav>
-    </section>
+    </header>
   )
 }
 export default ResponsiveNavbar
