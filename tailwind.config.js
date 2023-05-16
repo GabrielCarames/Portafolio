@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        "blue": "#002a87",
+        "blue": "#2716a0",
         "light-violet": "#9340ff"
       },
         screens: {
