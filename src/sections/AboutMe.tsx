@@ -5,7 +5,7 @@ import Button from "../components/Button"
 const AboutMe: FC = () => {
   return (
     <section className="w-full h-full flex justify-center items-center xs:pt-24 md:pt-0">
-      <article className="w-full max-w-4xl md:max-w-5xl h-max flex flex-wrap-reverse md:flex-nowrap justify-center md:justify-between items-center gap-10 mb-40 px-10">
+      <article className="w-full max-w-4xl md:max-w-5xl h-max flex flex-wrap-reverse md:flex-nowrap justify-center md:justify-between items-center gap-10 mb-40 px-8">
         <div className="w-full max-w-none md:max-w-lg text-left">
           <h1 className="text-4xl lg:text-5xl font-bold">Gabriel Caramés</h1>
           <h2 className="text-xl lg:text-2xl mt-2 text-green-300 font-bold">
@@ -21,7 +21,7 @@ const AboutMe: FC = () => {
             <Button variant="blue" text="Ver das" />
           </div>
         </div>
-        <div className="w-36 h-36 md:w-40 md:h-40 lg:w-72 lg:h-72 rounded-full shadow-2xl shadow-black">
+        <div className="w-36 h-36 md:w-40 md:h-40 lg:w-72 lg:h-72 rounded-full shadow-2xl shadow-green-1 border-[0px] border-green-1">
           <img
             className="rounded-full object-cover w-full h-full"
             src={selfie}

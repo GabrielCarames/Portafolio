@@ -11,7 +11,7 @@ const Navbar = () => {
     }
     window.addEventListener("scroll", handleScroll)
     return () => {
-      removeEventListener("scroll", handleScroll)
+      window.removeEventListener("scroll", handleScroll)
     }
   }, [])
 
