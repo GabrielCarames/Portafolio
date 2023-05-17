@@ -2,7 +2,7 @@ import { FC } from "react"
 import { ButtonProps, Variants } from "../interfaces"
 
 const variants: Variants = {
-  green: "bg-green-1 border-[3px] border-light-green",
+  green: "bg-gradient-to-r from-[#23dab5] to-green-1 border-[3px] border-green-3",
   blue: "bg-gradient-to-r from-blue-2 to-blue-3 border-[3px] border-blue-4 hover:bg-none"
 }
 

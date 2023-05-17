@@ -22,7 +22,7 @@ const Project: FC<ProjectProps> = ({ project }) => {
         </header>
         <div className="flex flex-col justify-between w-full lg:w-2/4">
           <div className="flex flex-col gap-5 mb-10 xl:mb-0">
-            <h4 className="font-bold text-xl lg:text-2xl text-green-1">{project.title}</h4>
+            <h4 className="font-bold text-xl lg:text-2xl text-violet-3">{project.title}</h4>
             <p className="text-gray-800 leading-5 text-sm lg:text-base">{project.description}</p>
             <div className="flex flex-wrap gap-5">
               <Button type="link" variant="green" className="w-24" href={project.links.repository}>
