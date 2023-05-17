@@ -4,7 +4,6 @@ import TailwindIcon from "./icons/TailwindIcon"
 import ZustandIcon from "./icons/ZustandIcon"
 import GraphQLIcon from "./icons/GraphQLIcon"
 import ApolloIcon from "./icons/ApolloIcon"
-import SocketIcon from "./icons/SocketIcon"
 import NextjsIcon from "./icons/NextjsIcon"
 import ReactIcon from "./icons/ReactIcon"
 import ReduxIcon from "./icons/ReduxIcon"
@@ -34,7 +33,6 @@ const TECHNOLOGIES_LIST: TechnologiesListProps = {
   Sass: <SassIcon className={DEFAULT_CLASSNAME} />,
   Redux: <ReduxIcon className={DEFAULT_CLASSNAME} />,
   Zustand: <ZustandIcon className={DEFAULT_CLASSNAME} />,
-  "Socket.io": <SocketIcon className={DEFAULT_CLASSNAME} />,
   "Apollo Client": <ApolloIcon className={DEFAULT_CLASSNAME} />,
   GraphQL: <GraphQLIcon className={DEFAULT_CLASSNAME} />
 }
