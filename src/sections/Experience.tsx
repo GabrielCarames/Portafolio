@@ -1,14 +1,16 @@
+import type { FC } from "react"
 import Timeline from "../components/Timeline"
 import Title from "../components/Title"
 
-const Experience = () => {
+const Experience: FC = () => {
   return (
-    <section className="w-full h-screen flex justify-center bg-white-2 text-black relative z-10 px-8">
+    <section className="w-full h-max flex justify-center">
       <div className="w-full max-w-7xl h-max flex flex-col gap-10 mt-10">
-        <Title text="Experience" />
+        <Title text="Experiencia" />
         <Timeline />
       </div>
     </section>
   )
 }
+
 export default Experience

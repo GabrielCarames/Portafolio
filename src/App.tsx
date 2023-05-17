@@ -1,10 +1,11 @@
+import Experience from "./sections/Experience"
+import Projects from "./sections/Projects"
+import AboutMe from "./sections/AboutMe"
 import ParticlesBackground from "./components/ParticlesBackground"
 import ResponsiveNavbar from "./components/ResponsiveNavbar"
 import Wave from "./components/Wave"
 import Navbar from "./components/Navbar"
-import AboutMe from "./sections/AboutMe"
 import type { FC } from "react"
-import Experience from "./sections/Experience"
 
 const App: FC = () => {
   return (
@@ -14,7 +15,10 @@ const App: FC = () => {
       <ParticlesBackground />
       <Wave />
       <AboutMe />
-      <Experience />
+      <div className="flex flex-col gap-10 bg-white-2 text-black relative z-10 px-8">
+        <Experience />
+        <Projects />
+      </div>
     </main>
   )
 }
