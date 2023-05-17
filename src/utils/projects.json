@@ -4,7 +4,7 @@
     "title": "Grammar Gate",
     "image": "../public/grammar-gate.webp",
     "alt": "Imágen de la página de Grammar Gate",
-    "technologies": ["Next.js", "TypeScript", "TailwindCSS", "React.js", "JavaScript"],
+    "technologies": ["Next.js", "TypeScript", "TailwindCSS", "React.js", "JavaScript", "Zustand"],
     "description": "Plataforma web de gramática utilizando la API de ChatGPT. Contiene tanto un corrector de gramática, como un resumidor de texto, y hasta un traductor. Perfecto para personas que quieran mejorar su habilidad de escritura en Inglés.",
     "links": {
       "repository": "https://github.com/GabrielCarames/grammar-gate",

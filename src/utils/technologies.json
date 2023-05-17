@@ -1,14 +1,15 @@
 [
-  "JavaScript",
-  "TypeScript",
-  "React.js",
   "Next.js",
+  "React.js",
+  "TypeScript",
+  "JavaScript",
+  "Zustand",
+  "Redux",
   "TailwindCSS",
+  "Apollo Client",
+  "GraphQL",
   "HTML",
   "CSS",
   "Sass",
-  "Redux",
-  "Socket",
-  "Apollo Client",
-  "GraphQL"
+  "Socket.io"
 ]
