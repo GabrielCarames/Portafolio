@@ -1,6 +1,6 @@
 import type { FC } from "react"
 import type { ProjectProps } from "../interfaces"
-import Technologies from "./Technologies"
+import TechnologiesTags from "./TechnologiesTags"
 import GithubIcon from "./icons/GithubIcon"
 import LinkIcon from "./icons/LinkIcon"
 import Button from "./Button"
@@ -37,7 +37,7 @@ const Project: FC<ProjectProps> = ({ project }) => {
               )}
             </div>
           </div>
-          <Technologies technologies={project.technologies} />
+          <TechnologiesTags technologies={project.technologies} />
         </div>
       </article>
     </li>
