@@ -5,13 +5,29 @@ export type Variants = {
 
 export interface ButtonProps {
   variant: "green" | "blue"
-  text: string
+  type: "submit" | "button" | "link"
+  href?: string
   className?: string
-  Icon?: React.ForwardRefExoticComponent<React.SVGProps<SVGSVGElement>>
-  iconClassName?: string
   onClick?: () => void
+  children: React.ReactNode
 }
 
 export interface TitleProps {
   text: string
+}
+
+export interface ProjectProps {
+  project: {
+    id: number
+    title: string
+    image: string
+    alt: string
+    technologies: string[]
+    description: string
+    links: { repository: string; deployment: string }
+  }
+}
+
+export interface IconProps {
+  className?: string
 }
