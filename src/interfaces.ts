@@ -14,6 +14,8 @@ export interface ButtonProps {
 
 export interface TitleProps {
   text: string
+  titleClassName?: string
+  barClassName?: string
 }
 
 export interface ProjectProps {

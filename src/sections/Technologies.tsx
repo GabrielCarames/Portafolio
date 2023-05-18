@@ -5,7 +5,7 @@ import type { FC } from "react"
 
 const Technologies: FC = () => {
   return (
-    <section className="w-full h-screen flex justify-center">
+    <section className="w-full h-max flex justify-center">
       <div className="w-full max-w-7xl h-max flex flex-col gap-20 mt-10">
         <Title text="Tecnologías" />
         <ul className="flex flex-wrap justify-center gap-20 px-8">
