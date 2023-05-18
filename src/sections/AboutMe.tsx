@@ -1,6 +1,8 @@
 import type { FC } from "react";
 import selfie from "../../public/selfie.webp";
 import Button from "../components/Button";
+import curriculum from "../../public/Curriculum - Gabriel Carames.pdf";
+import SocialMediaList from "../components/SocialMediaList";
 
 const AboutMe: FC = () => {
   return (
@@ -17,9 +19,21 @@ const AboutMe: FC = () => {
             resultados efectivos. Comprometido en el trabajo en equipo y en la
             satisfacción de los clientes con el producto final.
           </p>
-          <div className="mt-10 flex w-full gap-2">
-            <Button variant="green" text="Ver Curriculum" />
-            <Button variant="blue" text="Ver das" />
+          <div className="flex flex-col gap-5">
+            <div className="mt-10 flex w-full gap-2">
+              <Button
+                type="button"
+                variant="green"
+                className="w-24"
+                onClick={() => window.open(curriculum, "_blank")}
+              >
+                Ver Curriculum
+              </Button>
+              <Button type="button" variant="blue">
+                ad
+              </Button>
+            </div>
+            <SocialMediaList />
           </div>
         </div>
         <div className="h-36 w-36 rounded-full border-[0px] border-green-1 shadow-2xl shadow-green-1 md:h-40 md:w-40 lg:h-72 lg:w-72">
