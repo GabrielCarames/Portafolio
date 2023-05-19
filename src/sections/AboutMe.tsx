@@ -1,8 +1,8 @@
-import type { FC } from "react";
-import selfie from "../../public/selfie.webp";
-import Button from "../components/Button";
-import curriculum from "../../public/Curriculum - Gabriel Carames.pdf";
-import SocialMediaList from "../components/SocialMediaList";
+import type { FC } from "react"
+import selfie from "../../public/selfie.webp"
+import Button from "../components/Button"
+import curriculum from "../../public/Curriculum - Gabriel Carames.pdf"
+import SocialMediaList from "../components/SocialMediaList"
 
 const AboutMe: FC = () => {
   return (
@@ -14,26 +14,22 @@ const AboutMe: FC = () => {
             Desarrollador Front-end
           </h2>
           <p className="mt-5 text-sm text-slate-100 lg:text-base">
-            Experiencia trabajando para proyectos freelance. Enfoque centrado en
-            el uso de prácticas de programación sólidas y orientado a lograr
-            resultados efectivos. Comprometido en el trabajo en equipo y en la
-            satisfacción de los clientes con el producto final.
+            Experiencia trabajando para proyectos freelance. Enfoque centrado en el uso de prácticas
+            de programación sólidas y orientado a lograr resultados efectivos. Comprometido en el
+            trabajo en equipo y en la satisfacción de los clientes con el producto final.
           </p>
-          <div className="flex flex-col gap-5">
-            <div className="mt-10 flex w-full gap-2">
-              <Button
-                type="button"
-                variant="green"
-                className="w-24"
-                onClick={() => window.open(curriculum, "_blank")}
-              >
-                Ver Curriculum
-              </Button>
-              <Button type="button" variant="blue">
-                ad
-              </Button>
+          <div className="mt-10 flex w-full gap-5">
+            <Button
+              type="button"
+              variant="green"
+              className="w-24"
+              onClick={() => window.open(curriculum, "_blank")}
+            >
+              Ver Curriculum
+            </Button>
+            <div className="flex items-center">
+              <SocialMediaList type="horizontal" />
             </div>
-            <SocialMediaList />
           </div>
         </div>
         <div className="h-36 w-36 rounded-full border-[0px] border-green-1 shadow-2xl shadow-green-1 md:h-40 md:w-40 lg:h-72 lg:w-72">
@@ -45,7 +41,7 @@ const AboutMe: FC = () => {
         </div>
       </article>
     </main>
-  );
-};
+  )
+}
 
-export default AboutMe;
+export default AboutMe
