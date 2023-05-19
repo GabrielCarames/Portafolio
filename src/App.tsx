@@ -26,7 +26,7 @@ const App: FC = () => {
         <OtherProjects />
         <Technologies />
       </div>
-      <div className="relative h-screen lg:h-[800px]">
+      <div className="relative h-max pb-40 lg:pb-60">
         <Wave />
         <Contact />
       </div>

@@ -33,7 +33,7 @@ const SOCIAL_MEDIA_LIST: SOCIAL_MEDIA_LIST_PROPS = {
 }
 
 const types = {
-  vertical: "flex-col",
+  vertical: "flex flex-wrap justify-between sm:grid sm:grid-cols-2 lg:flex lg:flex-col",
   horizontal: "flex-row"
 }
 
@@ -49,7 +49,7 @@ const SocialMediaList: FC<SocialMediaListProps> = ({ type }) => {
           key={SOCIAL_MEDIA_LIST[socialMedia].id}
           className={`w-max rounded-full duration-75 ${
             type === "vertical" ? "hover:scale-105 hover:text-green-3" : "hover:scale-110"
-          } `}
+          } sm:even:justify-self-end lg:even:justify-self-start `}
         >
           <a
             className="flex items-center gap-3"

@@ -4,7 +4,7 @@ import type { FC } from "react"
 
 const Contact: FC = () => {
   return (
-    <section className="relative flex h-max w-full justify-center">
+    <section className="relative flex h-max w-full justify-center px-8">
       <div className="mt-20 flex h-max w-full max-w-7xl flex-col gap-10">
         <Title text="Contacto" titleClassName="text-white" barClassName="bg-green-2" />
         <Form />
