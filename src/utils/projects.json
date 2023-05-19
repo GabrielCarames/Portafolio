@@ -4,7 +4,14 @@
     "title": "Grammar Gate",
     "image": "../public/grammar-gate.webp",
     "alt": "Imágen de la página de Grammar Gate",
-    "technologies": ["Next.js", "TypeScript", "TailwindCSS", "React.js", "JavaScript", "Zustand"],
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "React.js",
+      "JavaScript",
+      "Zustand"
+    ],
     "description": "Plataforma web de gramática utilizando la API de ChatGPT. Contiene tanto un corrector de gramática, como un resumidor de texto, y hasta un traductor. Perfecto para personas que quieran mejorar su habilidad de escritura en Inglés.",
     "links": {
       "repository": "https://github.com/GabrielCarames/grammar-gate",
@@ -13,16 +20,23 @@
   },
   {
     "id": 2,
-    "title": "AlkyBank",
-    "image": "../public/alkybank.webp",
-    "alt": "Imágen de la página de AlkyBank",
-    "technologies": ["React.js", "Redux", "JavaScript", "TailwindCSS"],
-    "description": "Billetera digital utilizando la Wallet API de SwaggerUI. Creando una billetera podrás realizar tus gastos, transferencias, y pagos.",
+    "title": "Youtube MP3 Converter",
+    "image": "../public/youtube-mp3-converter.webp",
+    "alt": "Imágen de la página de Youtube MP3 Converter",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "React.js",
+      "JavaScript"
+    ],
+    "description": "Convertidor de videos de Youtube a formato MP3. Colocando el enlace de cualquier video de Youtube, éste se convertirá automáticamente a formato .mp3 y podrá ser descargado.",
     "links": {
-      "repository": "https://github.com/NazarenoRios/alkybank",
-      "deployment": ""
+      "repository": "https://github.com/GabrielCarames/youtube-mp3-converter",
+      "deployment": "https://youtube-mp3-converter-gabrielcarames.vercel.app/"
     }
   },
+
   {
     "id": 3,
     "title": "Parches Chat",
@@ -57,18 +71,6 @@
   },
   {
     "id": 5,
-    "title": "Chira-Marketplace",
-    "image": "../public/chira-marketplace.webp",
-    "alt": "Imágen de la página de Chira-Marketplace",
-    "technologies": ["React.js", "Redux", "JavaScript", "TypeScript", "Sass"],
-    "description": "Aplicación e-commerce que utiliza la API de Mercado Libre. Ofrece una sección de inicio con productos recomendados, y cada producto tendrá su propia lista de características, el cual puede ser añadido al carrito.",
-    "links": {
-      "repository": "https://github.com/alkemy-projects/chira-marketplace",
-      "deployment": "https://alkemy-projects.github.io/chira-marketplace/#/"
-    }
-  },
-  {
-    "id": 6,
     "title": "Clon de Youtube",
     "image": "../public/youtube-clone.webp",
     "alt": "Imágen de la página de Clon de Youtube",
@@ -77,6 +79,18 @@
     "links": {
       "repository": "https://github.com/GabrielCarames/youtube-clone",
       "deployment": "https://youtube-clone-gabrielcarames.vercel.app/"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Chira-Marketplace",
+    "image": "../public/chira-marketplace.webp",
+    "alt": "Imágen de la página de Chira-Marketplace",
+    "technologies": ["React.js", "Redux", "JavaScript", "TypeScript", "Sass"],
+    "description": "Aplicación e-commerce que utiliza la API de Mercado Libre. Ofrece una sección de inicio con productos recomendados, y cada producto tendrá su propia lista de características, el cual puede ser añadido al carrito.",
+    "links": {
+      "repository": "https://github.com/alkemy-projects/chira-marketplace",
+      "deployment": "https://alkemy-projects.github.io/chira-marketplace/#/"
     }
   },
   {
@@ -93,14 +107,14 @@
   },
   {
     "id": 8,
-    "title": "Youtube MP3 Converter",
-    "image": "../public/youtube-mp3-converter.webp",
-    "alt": "Imágen de la página de Youtube MP3 Converter",
-    "technologies": ["Next.js", "TypeScript", "TailwindCSS", "React.js", "JavaScript"],
-    "description": "Convertidor de videos de Youtube a formato MP3. Colocando el enlace de cualquier video de Youtube, éste se convertirá automáticamente a formato .mp3 y podrá ser descargado.",
+    "title": "AlkyBank",
+    "image": "../public/alkybank.webp",
+    "alt": "Imágen de la página de AlkyBank",
+    "technologies": ["React.js", "Redux", "JavaScript", "TailwindCSS"],
+    "description": "Billetera digital utilizando la Wallet API de SwaggerUI. Creando una billetera podrás realizar tus gastos, transferencias, y pagos.",
     "links": {
-      "repository": "https://github.com/GabrielCarames/youtube-mp3-converter",
-      "deployment": "https://youtube-mp3-converter-gabrielcarames.vercel.app/"
+      "repository": "https://github.com/NazarenoRios/alkybank",
+      "deployment": ""
     }
   }
 ]
