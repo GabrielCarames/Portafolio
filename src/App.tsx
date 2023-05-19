@@ -1,3 +1,4 @@
+import OtherProjects from "./sections/OtherProjects";
 import Technologies from "./sections/Technologies";
 import Experience from "./sections/Experience";
 import Projects from "./sections/Projects";
@@ -22,6 +23,7 @@ const App: FC = () => {
       <div className="relative z-10 flex flex-col gap-10 bg-white-2 px-8 pb-32 text-black">
         <Experience />
         <Projects />
+        <OtherProjects />
         <Technologies />
       </div>
       <div className="h-screen">
