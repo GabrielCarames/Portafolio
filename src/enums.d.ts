@@ -12,3 +12,11 @@ export enum TechnologiesEnum {
   CSS = "CSS",
   SASS = "Sass"
 }
+
+export enum NavbarItems {
+  ABOUT_ME = "Sobre mí",
+  EXPERIENCE = "Experiencia",
+  PROJECTS = "Proyectos",
+  TECHNOLOGIES = "Tecnologías",
+  CONTACT = "Contacto"
+}

@@ -21,17 +21,17 @@ const App: FC = () => {
         <Navbar sectionsRef={sectionsRef} />
         <ResponsiveNavbar />
         <Wave />
-        <AboutMe sectionRef={sectionsRef.aboutMeRef} />
+        <AboutMe sectionRef={sectionsRef.ABOUT_ME} />
       </div>
       <div className="relative z-10 flex flex-col gap-10 bg-white-2 px-8 pb-32 text-black">
-        <Experience sectionRef={sectionsRef.experienceRef} />
-        <Projects sectionRef={sectionsRef.projectsRef} />
-        <OtherProjects sectionRef={sectionsRef.otherProjectsRef} />
-        <Technologies sectionRef={sectionsRef.technologiesRef} />
+        <Experience sectionRef={sectionsRef.EXPERIENCE} />
+        <Projects sectionRef={sectionsRef.PROJECTS} />
+        <OtherProjects />
+        <Technologies sectionRef={sectionsRef.TECHNOLOGIES} />
       </div>
       <div className="relative h-max pb-40 lg:pb-60">
         <Wave />
-        <Contact sectionRef={sectionsRef.contactRef} />
+        <Contact sectionRef={sectionsRef.CONTACT} />
       </div>
     </div>
   )

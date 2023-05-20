@@ -4,18 +4,11 @@ import GithubIcon from "../components/icons/GithubIcon"
 import GmailIcon from "./icons/GmailIcon"
 import SOCIAL_MEDIA_LINKS from "../utils/social_media_links.json"
 import type { FC } from "react"
-
-interface SOCIAL_MEDIA_LIST_PROPS {
-  [key: string]: {
-    id: number
-    text: string
-    icon: JSX.Element
-  }
-}
-
-interface SOCIAL_MEDIA_LINKS_PROPS {
-  [key: string]: string
-}
+import type {
+  SOCIAL_MEDIA_LINKS_PROPS,
+  SOCIAL_MEDIA_LIST_PROPS,
+  SocialMediaListProps
+} from "../interfaces"
 
 const SOCIAL_MEDIA_LIST: SOCIAL_MEDIA_LIST_PROPS = {
   WhatsApp: { id: 1, text: "+54 9 11 3915-3268", icon: <WhatsAppIcon className="!h-11 !w-11" /> },
@@ -35,10 +28,6 @@ const SOCIAL_MEDIA_LIST: SOCIAL_MEDIA_LIST_PROPS = {
 const types = {
   vertical: "flex flex-wrap justify-between sm:grid sm:grid-cols-2 lg:flex lg:flex-col",
   horizontal: "flex-row"
-}
-
-interface SocialMediaListProps {
-  type: "vertical" | "horizontal"
 }
 
 const SocialMediaList: FC<SocialMediaListProps> = ({ type }) => {

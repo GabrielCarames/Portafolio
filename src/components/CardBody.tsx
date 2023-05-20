@@ -3,16 +3,7 @@ import GithubIcon from "./icons/GithubIcon"
 import LinkIcon from "./icons/LinkIcon"
 import Button from "./Button"
 import type { FC } from "react"
-import type { ProjectProps } from "../interfaces"
-
-interface CardBodyProps {
-  className: string
-  title: Pick<ProjectProps["project"], "title">["title"]
-  description: Pick<ProjectProps["project"], "description">["description"]
-  repositoryLink: Pick<ProjectProps["project"]["links"], "repository">["repository"]
-  deploymentLink: Pick<ProjectProps["project"]["links"], "deployment">["deployment"]
-  technologies: Pick<ProjectProps["project"], "technologies">["technologies"]
-}
+import type { CardBodyProps } from "../interfaces"
 
 const CardBody: FC<CardBodyProps> = ({
   className,

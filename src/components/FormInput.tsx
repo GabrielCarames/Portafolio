@@ -1,13 +1,5 @@
-import React, { type FC } from "react"
-
-interface FormInputProps {
-  containerClassName?: string
-  inputClassName?: string
-  name?: string
-  label: string
-  placeholder?: string
-  children?: React.ReactNode
-}
+import { type FC } from "react"
+import type { FormInputProps } from "../interfaces"
 
 const FormInput: FC<FormInputProps> = ({
   containerClassName,

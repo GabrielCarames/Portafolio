@@ -1,10 +1,6 @@
 import TechnologyIcon from "./TechnologyIcon"
-import type { TechnologiesEnum } from "../enums"
 import type { FC } from "react"
-
-interface TechnologyProps {
-  technology: TechnologiesEnum
-}
+import type { TechnologyProps } from "../interfaces"
 
 const Technology: FC<TechnologyProps> = ({ technology }) => {
   return (

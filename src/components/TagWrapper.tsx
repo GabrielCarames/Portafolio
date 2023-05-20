@@ -1,8 +1,5 @@
-import { FC } from "react"
-
-interface TagWrapperProps {
-  children: React.ReactNode
-}
+import type { FC } from "react"
+import type { TagWrapperProps } from "../interfaces"
 
 const TagWrapper: FC<TagWrapperProps> = ({ children }) => {
   return (

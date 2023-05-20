@@ -1,11 +1,5 @@
-import type { FC } from "react";
-
-interface CardHeaderProps {
-  className: string;
-  href: string;
-  src: string;
-  alt: string;
-}
+import type { FC } from "react"
+import type { CardHeaderProps } from "../interfaces"
 
 const CardHeader: FC<CardHeaderProps> = ({ className, href, src, alt }) => {
   return (
@@ -20,7 +14,7 @@ const CardHeader: FC<CardHeaderProps> = ({ className, href, src, alt }) => {
         </div>
       </a>
     </header>
-  );
-};
+  )
+}
 
-export default CardHeader;
+export default CardHeader

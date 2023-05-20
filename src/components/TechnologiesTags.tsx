@@ -1,10 +1,7 @@
 import TagWrapper from "./TagWrapper"
-import type { FC } from "react"
 import TechnologyIcon from "./TechnologyIcon"
-
-interface TechnologiesProps {
-  technologies: string[]
-}
+import type { FC } from "react"
+import type { TechnologiesProps } from "../interfaces"
 
 const TechnologiesTags: FC<TechnologiesProps> = ({ technologies }) => {
   return (
