@@ -1,26 +1,13 @@
-import { useEffect, useState } from "react"
+import useHandleScroll from "../hooks/useHandleScroll"
 import "../assets/navbar.css"
 
 const Navbar = () => {
-  const [isNavbarFixed, setIsNavbarFixed] = useState(false)
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const isFixed = window.scrollY > 200
-      setIsNavbarFixed(isFixed)
-    }
-    window.addEventListener("scroll", handleScroll)
-    return () => {
-      window.removeEventListener("scroll", handleScroll)
-    }
-  }, [])
+  const { isFixed } = useHandleScroll({ limit: 200 })
 
   return (
     <header className="hidden xs:block w-full h-16 text-white bg-[#ffffff0d] border-b border-b-[#ffffff1a] top-0 left-0 fixed z-50 navbar">
       <div
-        className={`fixed-navbar ${
-          isNavbarFixed ? "fixed-navbar-active" : "fixed-navbar-inactive"
-        }`}
+        className={`fixed-navbar ${isFixed ? "fixed-navbar-active" : "fixed-navbar-inactive"}`}
       ></div>
       <nav className="h-full flex justify-center items-center relative z-50">
         <ul className="flex gap-10 items-center h-full">
