@@ -10,7 +10,7 @@ const AboutMe: FC<SectionProps> = ({ sectionRef }) => {
   return (
     <main className="flex h-full w-full items-center justify-center xs:pt-24 md:pt-0">
       <div className="absolute top-0 w-full" ref={sectionRef}></div>
-      <article className="mb-40 flex h-max w-full max-w-4xl flex-wrap-reverse items-center justify-center gap-10 px-8 md:max-w-5xl md:flex-nowrap md:justify-between">
+      <article className="mb-[128px] xs:mb-32 md:mb-40 flex h-max w-full max-w-4xl flex-wrap-reverse items-center justify-center gap-10 px-8 md:max-w-5xl md:flex-nowrap md:justify-between">
         <div className="w-full max-w-none text-left md:max-w-lg">
           <h1 className="text-4xl font-bold lg:text-5xl">Gabriel Caramés</h1>
           <h2 className="mt-2 text-xl font-bold text-green-300 lg:text-2xl">
@@ -21,7 +21,7 @@ const AboutMe: FC<SectionProps> = ({ sectionRef }) => {
             de programación sólidas y orientado a lograr resultados efectivos. Comprometido en el
             trabajo en equipo y en la satisfacción de los clientes con el producto final.
           </p>
-          <div className="mt-10 flex flex-wrap w-full gap-5">
+          <div className="mt-7 md:mt-10 flex flex-wrap w-full gap-5">
             <Button
               type="button"
               variant="green"

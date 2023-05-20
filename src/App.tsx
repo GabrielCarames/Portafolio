@@ -16,7 +16,7 @@ const App: FC = () => {
   return (
     <div className="h-max bg-gradient-to-r from-violet-1 to-blue-1 font-sans text-white">
       <ParticlesBackground />
-      <div className="h-screen">
+      <div className="h-screen relative">
         <Navbar sectionsRef={sectionsRef} />
         <Wave />
         <AboutMe sectionRef={sectionsRef.ABOUT_ME} />

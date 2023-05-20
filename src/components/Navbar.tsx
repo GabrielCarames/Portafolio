@@ -34,9 +34,15 @@ const Navbar: FC<{ sectionsRef: SectionRefs }> = ({ sectionsRef }) => {
   }
 
   return (
-    <header className="block w-full h-16 text-white bg-[#ffffff0d] border-b border-b-[#ffffff1a] bottom-0 sm:top-0 left-0 fixed z-50 navbar duration-75">
+    <header className="block w-full h-16 text-white bg-[#ffffff0d] border-t border-t-[#ffffff26] md:border-t-0 md:border-b md:border-b-[#ffffff26] bottom-0 sm:top-0 left-0 fixed z-50 navbar duration-75">
       <div
-        className={`fixed-navbar ${isFixed ? "fixed-navbar-active" : "fixed-navbar-inactive"}`}
+        className={`fixed-navbar ${
+          limit !== 0
+            ? isFixed
+              ? "fixed-navbar-active"
+              : "fixed-navbar-inactive"
+            : "fixed-navbar-active"
+        }`}
       ></div>
       <nav className="h-full flex justify-center items-center relative z-50">
         <ul className="w-full sm:w-auto px-2 sm:px-0 justify-between sm:justify-start flex gap-0 sm:gap-10 items-center h-full text-xs sm:text-base">

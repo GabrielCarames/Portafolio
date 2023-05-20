@@ -16,6 +16,7 @@ export default {
         "violet-1": "#9340ff",
         "violet-2": "#6100df",
         "violet-3": "#615fda",
+        "violet-4": "#4500a0",
         "white-2": "#f6f5f5"
       },
       screens: {
