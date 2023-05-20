@@ -1,13 +1,15 @@
+import ScrollDownButton from "../components/ScrollDownButton"
 import SocialMediaList from "../components/SocialMediaList"
 import Button from "../components/Button"
 import curriculum from "../../public/Curriculum - Gabriel Carames.pdf"
 import selfie from "../../public/selfie.webp"
 import type { FC } from "react"
-import ScrollDownButton from "../components/ScrollDownButton"
+import type { SectionProps } from "../interfaces"
 
-const AboutMe: FC = () => {
+const AboutMe: FC<SectionProps> = ({ sectionRef }) => {
   return (
     <main className="flex h-full w-full items-center justify-center xs:pt-24 md:pt-0">
+      <div className="absolute top-0 w-full" ref={sectionRef}></div>
       <article className="mb-40 flex h-max w-full max-w-4xl flex-wrap-reverse items-center justify-center gap-10 px-8 md:max-w-5xl md:flex-nowrap md:justify-between">
         <div className="w-full max-w-none text-left md:max-w-lg">
           <h1 className="text-4xl font-bold lg:text-5xl">Gabriel Caramés</h1>

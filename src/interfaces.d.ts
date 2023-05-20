@@ -35,3 +35,11 @@ export interface ProjectProps {
 export interface IconProps {
   className?: string
 }
+
+export interface SectionProps {
+  sectionRef: React.MutableRefObject<HTMLDivElement | null>
+}
+
+export interface SectionRefs {
+  [key: string]: RefObject<HTMLDivElement>
+}
