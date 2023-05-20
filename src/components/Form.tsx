@@ -8,13 +8,17 @@ const Form: FC = () => {
   const { formRef, submitButtonIsDisabled, handleSubmit } = useForm()
 
   return (
-    <section className="flex flex-col rounded-xl text-white" onSubmit={handleSubmit} ref={formRef}>
+    <section className="flex flex-col rounded-xl text-white">
       <div className="flex flex-wrap gap-x-20 gap-y-10 lg:flex-nowrap text-sm lg:text-base">
         <aside className="flex w-full flex-col gap-5 lg:w-1/3">
           <p>¡Puedes enviarme un correo o contactarme por mis redes!</p>
           <SocialMediaList type="vertical" />
         </aside>
-        <form className="grid w-full grid-cols-6 gap-4 lg:w-2/3 text-gray-700">
+        <form
+          className="grid w-full grid-cols-6 gap-4 lg:w-2/3 text-gray-700 mt-[-5px]"
+          onSubmit={handleSubmit}
+          ref={formRef}
+        >
           <FormInput name="from_name" label="Nombre" placeholder="" />
           <FormInput name="from_email" label="Email" placeholder="" />
           <FormInput containerClassName="!col-span-full" label="Mensaje">
