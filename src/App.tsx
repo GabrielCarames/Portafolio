@@ -1,5 +1,4 @@
 import ParticlesBackground from "./components/ParticlesBackground"
-import ResponsiveNavbar from "./components/ResponsiveNavbar"
 import Navbar from "./components/Navbar"
 import Wave from "./components/Wave"
 import OtherProjects from "./sections/OtherProjects"
@@ -19,7 +18,6 @@ const App: FC = () => {
       <ParticlesBackground />
       <div className="h-screen">
         <Navbar sectionsRef={sectionsRef} />
-        <ResponsiveNavbar />
         <Wave />
         <AboutMe sectionRef={sectionsRef.ABOUT_ME} />
       </div>

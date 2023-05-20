@@ -21,7 +21,7 @@ const AboutMe: FC<SectionProps> = ({ sectionRef }) => {
             de programación sólidas y orientado a lograr resultados efectivos. Comprometido en el
             trabajo en equipo y en la satisfacción de los clientes con el producto final.
           </p>
-          <div className="mt-10 flex w-full gap-5">
+          <div className="mt-10 flex flex-wrap w-full gap-5">
             <Button
               type="button"
               variant="green"

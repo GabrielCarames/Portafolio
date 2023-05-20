@@ -51,6 +51,7 @@ export interface NavbarItemProps {
   handleNavLinkClick: (ref: RefObject<HTMLDivElement>) => void
   sectionRef: RefObject<HTMLDivElement>
   title: string
+  Icon: JSX.Element
 }
 
 export interface refProps {
@@ -116,4 +117,8 @@ export interface TechnologiesListProps {
 
 export interface TechnologiesListProps_ {
   technology: string
+}
+
+export interface useHandleScrollProps {
+  limit: number
 }

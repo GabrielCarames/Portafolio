@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
+import type { useHandleScrollProps } from "../interfaces"
 
-const useHandleScroll = ({ limit = 200 }) => {
+const useHandleScroll = ({ limit = 200 }: useHandleScrollProps) => {
   const [isFixed, setIsFixed] = useState(false)
 
   useEffect(() => {

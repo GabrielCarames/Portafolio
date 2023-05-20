@@ -28,6 +28,19 @@
   backdrop-filter: blur(5px);
 }
 
+@media screen and (max-width: 600px) {
+  .fixed-navbar {
+    transition: opacity 0s ease, pointer-events 0s 1s;
+  }
+  .fixed-navbar-active {
+    transition: opacity 0s ease;
+    animation: navbar-animation 0s ease;
+  }
+  .fixed-navbar-inactive {
+    transition: opacity 0s ease;
+  }
+}
+
 @keyframes navbar-animation {
   0% {
     opacity: 0;
