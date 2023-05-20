@@ -1,8 +1,9 @@
-import type { FC } from "react"
-import selfie from "../../public/selfie.webp"
+import SocialMediaList from "../components/SocialMediaList"
 import Button from "../components/Button"
 import curriculum from "../../public/Curriculum - Gabriel Carames.pdf"
-import SocialMediaList from "../components/SocialMediaList"
+import selfie from "../../public/selfie.webp"
+import type { FC } from "react"
+import ScrollDownButton from "../components/ScrollDownButton"
 
 const AboutMe: FC = () => {
   return (
@@ -40,6 +41,7 @@ const AboutMe: FC = () => {
           />
         </div>
       </article>
+      <ScrollDownButton />
     </main>
   )
 }
