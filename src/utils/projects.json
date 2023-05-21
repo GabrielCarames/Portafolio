@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Grammar Gate",
-    "image": "../public/grammar-gate.webp",
+    "image": "/grammar-gate.webp",
     "alt": "Imágen de la página de Grammar Gate",
     "technologies": ["Next.js", "TypeScript", "TailwindCSS", "React.js", "JavaScript", "Zustand"],
     "description": "Plataforma web de gramática utilizando la API de ChatGPT. Contiene tanto un corrector de gramática, como un resumidor de texto, y hasta un traductor. Perfecto para personas que quieran mejorar su habilidad de escritura en Inglés.",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "title": "Youtube MP3 Converter",
-    "image": "../public/youtube-mp3-converter.webp",
+    "image": "/youtube-mp3-converter.webp",
     "alt": "Imágen de la página de Youtube MP3 Converter",
     "technologies": ["Next.js", "TypeScript", "TailwindCSS", "React.js", "JavaScript"],
     "description": "Convertidor de videos de Youtube a formato MP3. Colocando el enlace de cualquier video de Youtube, éste se convertirá automáticamente a formato .mp3 y podrá ser descargado.",
@@ -27,7 +27,7 @@
   {
     "id": 3,
     "title": "Parches Chat",
-    "image": "../public/parches-chat.webp",
+    "image": "/parches-chat.webp",
     "alt": "Imágen de la página de Parches Chat",
     "technologies": [
       "React.js",
@@ -47,7 +47,7 @@
   {
     "id": 4,
     "title": "React Wordle",
-    "image": "../public/react-wordle.webp",
+    "image": "/react-wordle.webp",
     "alt": "Imágen de la página de React Wordle",
     "technologies": ["React.js", "Sass"],
     "description": "Versión en React del juego Wordle. Se tienen 6 intentos para adivinar la palabra correcta generada de forma aleatoria, y por cada intento realizado, se pintarán las celdas de cada letra de un color u otro, según el grado de acierto.",
@@ -59,7 +59,7 @@
   {
     "id": 5,
     "title": "Clon de Youtube",
-    "image": "../public/youtube-clone.webp",
+    "image": "/youtube-clone.webp",
     "alt": "Imágen de la página de Clon de Youtube",
     "technologies": ["React.js", "Sass"],
     "description": "Clon de Youtube utilizando la API de Youtube v3. A partir de una lista de videos recomendados, se podrá elegir uno y reproducirlo. Cada video cuenta con sus propios comentarios y sus videos relacionados.",
@@ -71,7 +71,7 @@
   {
     "id": 6,
     "title": "Chira-Marketplace",
-    "image": "../public/chira-marketplace.webp",
+    "image": "/chira-marketplace.webp",
     "alt": "Imágen de la página de Chira-Marketplace",
     "technologies": ["React.js", "Redux", "JavaScript", "TypeScript", "Sass"],
     "description": "Aplicación e-commerce que utiliza la API de Mercado Libre. Ofrece una sección de inicio con productos recomendados, y cada producto tendrá su propia lista de características, el cual puede ser añadido al carrito.",
@@ -83,7 +83,7 @@
   {
     "id": 7,
     "title": "Clon de Google Translate",
-    "image": "../public/google-translate-clone.webp",
+    "image": "/google-translate-clone.webp",
     "alt": "Imágen de la página de Clon de Google Translate",
     "technologies": ["React.js", "Redux", "Sass"],
     "description": "Traductor web clon de Google Translate utilizando la API de Google Translate. Seleccionando un idioma origen de una amplia lista de idiomas, se podrá traducir hacia un idioma destino rápidamente.",
@@ -95,7 +95,7 @@
   {
     "id": 8,
     "title": "AlkyBank",
-    "image": "../public/alkybank.webp",
+    "image": "/alkybank.webp",
     "alt": "Imágen de la página de AlkyBank",
     "technologies": ["React.js", "Redux", "JavaScript", "TailwindCSS"],
     "description": "Billetera digital utilizando la Wallet API de SwaggerUI. Creando una billetera podrás realizar tus gastos, transferencias, y pagos.",
