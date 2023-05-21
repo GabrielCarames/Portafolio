@@ -10,7 +10,7 @@ const AboutMe: FC<SectionProps> = ({ sectionRef }) => {
   return (
     <main className="flex h-full w-full items-center justify-center xs:pt-24 md:pt-0">
       <div className="absolute top-0 w-full" ref={sectionRef}></div>
-      <article className="mb-[128px] xs:mb-32 md:mb-40 flex h-max w-full max-w-4xl flex-wrap-reverse items-center justify-center gap-10 px-8 md:max-w-5xl md:flex-nowrap md:justify-between">
+      <article className="mb-[128px] xs:mb-32 md:mb-40 flex h-max w-full max-w-4xl flex-wrap-reverse items-center justify-center gap-10 px-8 md:px-0 md:max-w-7xl md:flex-nowrap md:justify-between">
         <div className="w-full max-w-none text-left md:max-w-lg">
           <h1 className="text-4xl font-bold lg:text-5xl">Gabriel Caramés</h1>
           <h2 className="mt-2 text-xl font-bold text-green-300 lg:text-2xl">
@@ -35,7 +35,7 @@ const AboutMe: FC<SectionProps> = ({ sectionRef }) => {
             </div>
           </div>
         </div>
-        <div className="h-36 w-36 rounded-full border-[0px] border-green-1 shadow-2xl shadow-green-1 md:h-40 md:w-40 lg:h-72 lg:w-72">
+        <div className="h-36 w-36 rounded-full border-[0px] border-green-1 shadow-2xl shadow-blue-2 md:h-40 md:w-40 lg:h-72 lg:w-72">
           <img
             className="h-full w-full rounded-full object-cover"
             src={selfie}

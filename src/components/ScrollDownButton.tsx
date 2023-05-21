@@ -7,7 +7,7 @@ const ScrollDownButton: FC = () => {
 
   return (
     <div
-      className={`hidden md:bottom-10 animate-[bounce_2s_ease-in-out_infinite] fixed ${
+      className={`hidden md:bottom-10 md:block animate-[bounce_2s_ease-in-out_infinite] fixed ${
         isFixed ? "opacity-0" : ""
       } duration-1000`}
     >

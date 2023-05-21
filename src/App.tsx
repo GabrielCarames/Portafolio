@@ -21,7 +21,7 @@ const App: FC = () => {
         <Wave />
         <AboutMe sectionRef={sectionsRef.ABOUT_ME} />
       </div>
-      <div className="relative z-10 flex flex-col gap-10 bg-white-2 px-8 pb-32 text-black">
+      <div className="relative z-10 flex flex-col gap-20 pt-20 bg-white-2 px-8 pb-32 text-black">
         <Experience sectionRef={sectionsRef.EXPERIENCE} />
         <Projects sectionRef={sectionsRef.PROJECTS} />
         <OtherProjects />

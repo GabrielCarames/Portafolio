@@ -10,19 +10,29 @@ import type {
   SocialMediaListProps
 } from "../interfaces"
 
+const DEFAULT_CLASS_NAME = "!w-9 !h-9 md:!h-11 md:!w-11"
+
 const SOCIAL_MEDIA_LIST: SOCIAL_MEDIA_LIST_PROPS = {
-  WhatsApp: { id: 1, text: "+54 9 11 3915-3268", icon: <WhatsAppIcon className="!h-11 !w-11" /> },
+  WhatsApp: {
+    id: 1,
+    text: "+54 9 11 3915-3268",
+    icon: <WhatsAppIcon className={DEFAULT_CLASS_NAME} />
+  },
   LinkedIn: {
     id: 2,
     text: "linkedin.com/in/gabrielcarames/",
-    icon: <LinkedInIcon className="!h-11 !w-11" />
+    icon: <LinkedInIcon className={DEFAULT_CLASS_NAME} />
   },
   Github: {
     id: 3,
     text: "github.com/GabrielCarames",
-    icon: <GithubIcon className="!h-11 !w-11" />
+    icon: <GithubIcon className={DEFAULT_CLASS_NAME} />
   },
-  Gmail: { id: 4, text: "gabrielcarames1@gmail.com", icon: <GmailIcon className="!h-11 !w-11" /> }
+  Gmail: {
+    id: 4,
+    text: "gabrielcarames1@gmail.com",
+    icon: <GmailIcon className={DEFAULT_CLASS_NAME} />
+  }
 }
 
 const types = {
@@ -44,11 +54,6 @@ const SocialMediaList: FC<SocialMediaListProps> = ({ type }) => {
             className="flex items-center gap-3"
             href={(SOCIAL_MEDIA_LINKS as SOCIAL_MEDIA_LINKS_PROPS)[socialMedia]}
             target="_blank"
-            onClick={event => {
-              socialMedia === "Gmail" &&
-                window.open((SOCIAL_MEDIA_LINKS as SOCIAL_MEDIA_LINKS_PROPS)[socialMedia])
-              event.preventDefault()
-            }}
           >
             {SOCIAL_MEDIA_LIST[socialMedia].icon}
             {type === "vertical" && <span className="">{SOCIAL_MEDIA_LIST[socialMedia].text}</span>}

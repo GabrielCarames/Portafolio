@@ -1,5 +1,5 @@
-import TagWrapper from "./TagWrapper"
 import TechnologyIcon from "./TechnologyIcon"
+import TagWrapper from "./TagWrapper"
 import type { FC } from "react"
 import type { TechnologiesProps } from "../interfaces"
 

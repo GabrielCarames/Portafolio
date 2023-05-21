@@ -15,10 +15,10 @@ const CardBody: FC<CardBodyProps> = ({
 }) => {
   return (
     <div className={`flex w-full flex-col justify-between ${className}`}>
-      <div className="mb-10 flex flex-col gap-5 xl:mb-0">
+      <div className="flex flex-col gap-5">
         <h4 className="text-xl font-bold text-violet-3 lg:text-2xl">{title}</h4>
         <p className="text-sm leading-5 text-gray-800 lg:text-base">{description}</p>
-        <div className="flex flex-wrap gap-5">
+        <div className="flex flex-wrap gap-5 gap-y-3">
           <Button type="link" variant="green" className="w-24" href={repositoryLink}>
             Ver repositorio
             <GithubIcon className="!h-5 !w-5 fill-white" />
