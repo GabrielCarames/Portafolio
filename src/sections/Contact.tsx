@@ -1,5 +1,5 @@
+import ContactContent from "../components/ContactContent"
 import Title from "../components/Title"
-import Form from "../components/Form"
 import type { FC } from "react"
 import type { SectionProps } from "../interfaces"
 
@@ -9,7 +9,7 @@ const Contact: FC<SectionProps> = ({ sectionRef }) => {
       <div className="absolute top-0 w-full" ref={sectionRef}></div>
       <div className="mt-20 flex h-max w-full max-w-7xl flex-col gap-10">
         <Title text="Contacto" titleClassName="text-white" barClassName="bg-green-2" />
-        <Form />
+        <ContactContent />
       </div>
     </section>
   )
