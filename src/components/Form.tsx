@@ -8,7 +8,7 @@ const Form: FC = () => {
 
   return (
     <form
-      className="grid w-full grid-cols-6 gap-4 lg:w-2/3 text-gray-700 mt-[-5px]"
+      className="grid w-full grid-cols-6 gap-4 lg:w-2/3 text-gray-700 mt-[-15px]"
       onSubmit={handleSubmit}
       ref={formRef}
     >

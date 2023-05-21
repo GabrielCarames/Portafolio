@@ -1,6 +1,7 @@
 import SocialMediaList from "../components/SocialMediaList"
 import Form from "./Form"
 import type { FC } from "react"
+import SeeCurriculum from "./SeeCurriculum"
 
 const ContactContent: FC = () => {
   return (
@@ -9,6 +10,7 @@ const ContactContent: FC = () => {
         <aside className="flex w-full flex-col gap-5 lg:w-1/3">
           <p>¡Puedes enviarme un correo o contactarme por mis redes!</p>
           <SocialMediaList type="vertical" />
+          <SeeCurriculum />
         </aside>
         <Form />
       </div>

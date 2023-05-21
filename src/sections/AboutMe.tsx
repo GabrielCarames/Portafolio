@@ -1,7 +1,6 @@
 import ScrollDownButton from "../components/ScrollDownButton"
 import SocialMediaList from "../components/SocialMediaList"
-import Button from "../components/Button"
-import curriculum from "../../public/Curriculum - Gabriel Carames.pdf"
+import SeeCurriculum from "../components/SeeCurriculum"
 import selfie from "../../public/selfie.webp"
 import type { FC } from "react"
 import type { SectionProps } from "../interfaces"
@@ -22,14 +21,7 @@ const AboutMe: FC<SectionProps> = ({ sectionRef }) => {
             trabajo en equipo y en la satisfacción de los clientes con el producto final.
           </p>
           <div className="mt-7 md:mt-10 flex flex-wrap w-full gap-5">
-            <Button
-              type="button"
-              variant="green"
-              className="w-24"
-              onClick={() => window.open(curriculum, "_blank")}
-            >
-              Ver Curriculum
-            </Button>
+            <SeeCurriculum />
             <div className="flex items-center">
               <SocialMediaList type="horizontal" />
             </div>
