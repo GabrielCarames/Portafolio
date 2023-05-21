@@ -8,7 +8,7 @@ import NextjsIcon from "./icons/NextjsIcon"
 import ReactIcon from "./icons/ReactIcon"
 import ReduxIcon from "./icons/ReduxIcon"
 import SassIcon from "./icons/SassIcon"
-import HTMLIcon from "./icons/HTMLIcon"
+import HtmlIcon from "./icons/HtmlIcon"
 import CSSIcon from "./icons/CSSIcon"
 import type { FC } from "react"
 import type { TechnologiesListProps, TechnologiesListProps_ } from "../interfaces"
@@ -21,7 +21,7 @@ const TECHNOLOGIES_LIST: TechnologiesListProps = {
   "React.js": <ReactIcon className={DEFAULT_CLASSNAME} />,
   "Next.js": <NextjsIcon className={DEFAULT_CLASSNAME} />,
   TailwindCSS: <TailwindIcon className={DEFAULT_CLASSNAME} />,
-  HTML: <HTMLIcon className={DEFAULT_CLASSNAME} />,
+  HTML: <HtmlIcon className={DEFAULT_CLASSNAME} />,
   CSS: <CSSIcon className={DEFAULT_CLASSNAME} />,
   Sass: <SassIcon className={DEFAULT_CLASSNAME} />,
   Redux: <ReduxIcon className={DEFAULT_CLASSNAME} />,

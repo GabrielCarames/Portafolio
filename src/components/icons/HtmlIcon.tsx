@@ -1,7 +1,7 @@
 import type { FC } from "react"
 import type { IconProps } from "../../interfaces"
 
-const HTMLIcon: FC<IconProps> = ({ className }) => {
+const HtmlIcon: FC<IconProps> = ({ className }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -16,4 +16,4 @@ const HTMLIcon: FC<IconProps> = ({ className }) => {
   )
 }
 
-export default HTMLIcon
+export default HtmlIcon
