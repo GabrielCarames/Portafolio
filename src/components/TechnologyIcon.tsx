@@ -11,7 +11,10 @@ import SassIcon from "./icons/SassIcon"
 import HtmlIcon from "./icons/HtmlIcon"
 import CSSIcon from "./icons/CSSIcon"
 import type { FC } from "react"
-import type { TechnologiesListProps, TechnologiesListProps_ } from "../interfaces"
+import type {
+  TechnologiesListProps,
+  TechnologiesListProps_
+} from "../interfaces"
 
 const DEFAULT_CLASSNAME = "!w-full !h-full"
 

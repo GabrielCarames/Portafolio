@@ -62,8 +62,14 @@ export interface CardBodyProps {
   className: string
   title: Pick<ProjectProps["project"], "title">["title"]
   description: Pick<ProjectProps["project"], "description">["description"]
-  repositoryLink: Pick<ProjectProps["project"]["links"], "repository">["repository"]
-  deploymentLink: Pick<ProjectProps["project"]["links"], "deployment">["deployment"]
+  repositoryLink: Pick<
+    ProjectProps["project"]["links"],
+    "repository"
+  >["repository"]
+  deploymentLink: Pick<
+    ProjectProps["project"]["links"],
+    "deployment"
+  >["deployment"]
   technologies: Pick<ProjectProps["project"], "technologies">["technologies"]
 }
 
@@ -121,4 +127,13 @@ export interface TechnologiesListProps_ {
 
 export interface useHandleScrollProps {
   limit: number
+}
+
+export interface TimelineItemProps {
+  title: string
+  linkName: string
+  link: string
+  date: string
+  items?: string[]
+  technologies: string[]
 }

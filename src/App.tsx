@@ -16,7 +16,7 @@ const App: FC = () => {
   return (
     <div className="h-max bg-gradient-to-r from-violet-1 to-blue-1 font-sans text-white">
       <ParticlesBackground />
-      <div className="h-screen relative">
+      <div className="h-[700px] md:px-8 relative flex justify-center items-center">
         <Navbar sectionsRef={sectionsRef} />
         <Wave />
         <AboutMe sectionRef={sectionsRef.ABOUT_ME} />
@@ -24,7 +24,7 @@ const App: FC = () => {
       <div className="relative z-10 flex flex-col gap-20 pt-20 bg-white-2 px-8 pb-32 text-black">
         <Experience sectionRef={sectionsRef.EXPERIENCE} />
         <Projects sectionRef={sectionsRef.PROJECTS} />
-        <OtherProjects />
+        {/* <OtherProjects /> */}
         <Technologies sectionRef={sectionsRef.TECHNOLOGIES} />
       </div>
       <div className="relative h-max pb-40 lg:pb-60">

@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "Proyecto e-commerce",
+    "linkName": "XPLAZA",
+    "link": "/#",
+    "date": "Diciembre 2023 - Enero 2024",
+    "items": [
+      "Desarrollé la plataforma e-commerce del comercio agrícola “XPLAZA”, permitiendo a los usuarios comprar y vender productos."
+    ],
+    "technologies": [
+      "Next.js",
+      "React.js",
+      "TailwindCSS",
+      "TypeScript",
+      "JavaScript"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Proyecto conversión de tecnologías de página web",
+    "linkName": "Chrysler 65",
+    "link": "https://www.bumoai.com/",
+    "date": "Diciembre 2023",
+    "items": [
+      "Transformé una página hecha con Next.js a tecnologías HTML, CSS, JS, manteniendo el mismo diseño, reduciendo el código, y mejorando las animaciones y el diseño adaptativo."
+    ],
+    "technologies": ["HTML", "JavaScript", "CSS"]
+  },
+  {
+    "id": 3,
+    "title": "Proyecto landing page",
+    "linkName": "BumoAI",
+    "link": "https://www.bumoai.com/",
+    "date": "Diciembre 2023",
+    "items": [
+      "Llevé a cabo la creación de la landing page del programa “BumoAI”, destacando los beneficios e incentivando a los usuarios a contratar un plan de pago."
+    ],
+    "technologies": ["Next.js", "React.js", "TailwindCSS", "JavaScript"]
+  },
+  {
+    "id": 4,
+    "title": "Proyecto landing page",
+    "linkName": "Festivus",
+    "link": "https://festivusapp.com/",
+    "date": "Diciembre 2023",
+    "items": [
+      "Llevé a cabo la creación de la landing page para la aplicación de eventos “Festivus”, destacando los beneficios e incentivando a que sea descargada por los usuarios.",
+      "Aseguré la correcta visualización de la página en el 100% de dispositivos, incluidos aquellos con navegadores antiguos y con poca compatibilidad con tecnologías actuales."
+    ],
+    "technologies": ["HTML", "JavaScript", "CSS"]
+  },
+  {
+    "id": 5,
+    "title": "Proyecto login con Firebase",
+    "linkName": "Solobuses",
+    "link": "https://solobuses.com.ar/",
+    "date": "Noviembre 2023",
+    "items": [
+      "Implementé desde cero un sistema de registro y autenticación con Firebase Auth.",
+      "Mejoré los tiempos de carga de la página eliminando peticiones innecesarias a la base de datos de Firebase Cloud Firestore."
+    ],
+    "technologies": ["HTML", "JavaScript", "CSS"]
+  },
+  {
+    "id": 6,
+    "title": "Desarrollador Front-end",
+    "linkName": "Wapidelo",
+    "link": "https://www.wapidelo.com/",
+    "date": "Diciembre 2022 - Febrero 2023",
+    "items": [
+      "Incrementé la velocidad de carga de datos en un 40% a través de la implementación de tecnologías modernas como GraphQL, provocando una mayor fluidez y mejor experiencia de usuario.",
+      "Implementé y creé desde cero nuevas funcionalidades, expandiendo las opciones disponibles para el usuario.",
+      "Hice pruebas de cada nueva implementación asegurando el correcto desempeño con el resto de componentes."
+    ],
+    "technologies": [
+      "Next.js",
+      "React.js",
+      "TailwindCSS",
+      "TypeScript",
+      "JavaScript",
+      "Apollo Client",
+      "GraphQL"
+    ]
+  }
+]
