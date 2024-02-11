@@ -1,7 +1,7 @@
 import ParticlesBackground from "./components/ParticlesBackground"
 import Navbar from "./components/Navbar"
 import Wave from "./components/Wave"
-import OtherProjects from "./sections/OtherProjects"
+// import OtherProjects from "./sections/OtherProjects"
 import Technologies from "./sections/Technologies"
 import Experience from "./sections/Experience"
 import Projects from "./sections/Projects"
