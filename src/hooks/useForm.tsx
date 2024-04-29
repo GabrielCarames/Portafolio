@@ -44,7 +44,9 @@ const useForm = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     const formData = new FormData(e.currentTarget)
-    const { from_name, from_email, message }: any = Object.fromEntries(formData.entries())
+    const { from_name, from_email, message }: any = Object.fromEntries(
+      formData.entries()
+    )
     if (!validateInputs({ from_name, from_email, message })) return
     if (!formRef.current) return
     sendEmail(formRef)

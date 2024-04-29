@@ -13,7 +13,7 @@ import { NavbarItems } from "../enums.d"
 import "../assets/navbar.css"
 
 const Navbar: FC<{ sectionsRef: SectionRefs }> = ({ sectionsRef }) => {
-  const limit = window.innerWidth < 500 ? 0 : 200
+  const limit = window.innerWidth < 1000 ? 0 : 200
   const { isFixed } = useHandleScroll({ limit })
 
   const handleNavLinkClick = (ref: RefObject<HTMLDivElement>) => {

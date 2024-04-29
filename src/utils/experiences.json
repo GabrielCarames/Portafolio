@@ -1,12 +1,38 @@
 [
   {
     "id": 1,
-    "title": "Proyecto e-commerce",
+    "title": "Landing page para software",
+    "linkName": "SmartPOS Cloud",
+    "link": "/#",
+    "date": "Febrero 2024 - Abril 2024",
+    "items": [
+      "Desarrollé la landing page ideal para “SmartPOS Cloud“, con el objetivo de vender los planes de pago para utilizar el software a través de un diseño atractivo.",
+      "Implementé la integración de pagos por Paypal a través de una API",
+      "Subí y alojé el sitio en un servidor de hosting y configuré el servicio de envío de emails."
+    ],
+    "technologies": ["React.js", "TailwindCSS", "JavaScript"]
+  },
+  {
+    "id": 2,
+    "title": "Portafolio de imágenes para fotógrafo",
+    "linkName": "Cesar Martinez Edo",
+    "link": "https://cesaresedo.com/",
+    "date": "Febrero 2024 - Abril 2024",
+    "items": [
+      "Creé el sitio web para alojar y presentar el contenido multimedia de un fotógrafo, permitiendo visualizar imágenes y videos.",
+      "Implementé un panel de administrador con inicio de sesión privado, en el que se pueden subir las imágenes, videos, categorías, entre otros datos."
+    ],
+    "technologies": ["React.js", "TailwindCSS", "JavaScript"]
+  },
+  {
+    "id": 3,
+    "title": "E-commerce de productos agrícolas",
     "linkName": "XPLAZA",
     "link": "/#",
     "date": "Diciembre 2023 - Enero 2024",
     "items": [
-      "Desarrollé la plataforma e-commerce del comercio agrícola “XPLAZA”, permitiendo a los usuarios comprar y vender productos."
+      "Desarrollé la plataforma e-commerce del comercio agrícola “XPLAZA”, permitiendo a los usuarios comprar y vender productos.",
+      "Integré una barra de búsqueda, filtros por categorías, inicio de sesión, página de producto, galería de imágenes, paginación, entre otros."
     ],
     "technologies": [
       "Next.js",
@@ -17,19 +43,19 @@
     ]
   },
   {
-    "id": 2,
-    "title": "Proyecto conversión de tecnologías de página web",
+    "id": 4,
+    "title": "Migración de tecnologías de página web",
     "linkName": "Chrysler 65",
     "link": "https://www.bumoai.com/",
     "date": "Diciembre 2023",
     "items": [
-      "Transformé una página hecha con Next.js a tecnologías HTML, CSS, JS, manteniendo el mismo diseño, reduciendo el código, y mejorando las animaciones y el diseño adaptativo."
+      "Transformé una página web hecha con Next.js a tecnologías HTML, CSS, JS, manteniendo el mismo diseño, reduciendo el código, y mejorando las animaciones y el diseño responsive."
     ],
     "technologies": ["HTML", "JavaScript", "CSS"]
   },
   {
-    "id": 3,
-    "title": "Proyecto landing page",
+    "id": 5,
+    "title": "Landing page para software de IA",
     "linkName": "BumoAI",
     "link": "https://www.bumoai.com/",
     "date": "Diciembre 2023",
@@ -39,8 +65,8 @@
     "technologies": ["Next.js", "React.js", "TailwindCSS", "JavaScript"]
   },
   {
-    "id": 4,
-    "title": "Proyecto landing page",
+    "id": 6,
+    "title": "Landing page para aplicación de eventos",
     "linkName": "Festivus",
     "link": "https://festivusapp.com/",
     "date": "Diciembre 2023",
@@ -51,19 +77,7 @@
     "technologies": ["HTML", "JavaScript", "CSS"]
   },
   {
-    "id": 5,
-    "title": "Proyecto login con Firebase",
-    "linkName": "Solobuses",
-    "link": "https://solobuses.com.ar/",
-    "date": "Noviembre 2023",
-    "items": [
-      "Implementé desde cero un sistema de registro y autenticación con Firebase Auth.",
-      "Mejoré los tiempos de carga de la página eliminando peticiones innecesarias a la base de datos de Firebase Cloud Firestore."
-    ],
-    "technologies": ["HTML", "JavaScript", "CSS"]
-  },
-  {
-    "id": 6,
+    "id": 7,
     "title": "Desarrollador Front-end",
     "linkName": "Wapidelo",
     "link": "https://www.wapidelo.com/",

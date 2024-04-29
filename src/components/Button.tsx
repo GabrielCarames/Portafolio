@@ -8,7 +8,7 @@ const variants: Variants = {
 }
 
 const defaultClassName =
-  "w-max flex gap-3 lg:gap-5 font-bold focus:outline-none text-white cursor-pointer hover:bg-white flex justify-center items-center text-base lg:text-base px-3 py-[6px] lg:px-5 lg:py-2 box-border duration-75 text-center rounded-xl"
+  "w-max flex gap-3 lg:gap-5 font-bold focus:outline-none text-white cursor-pointer hover:bg-white flex justify-center items-center text-sm lg:text-base px-3 py-[6px] lg:px-5 lg:py-2 box-border duration-75 text-center rounded-xl"
 
 const Button: FC<ButtonProps> = ({
   variant,
@@ -21,7 +21,9 @@ const Button: FC<ButtonProps> = ({
 }) => {
   return type === "link" ? (
     <a
-      className={`${variants[variant as keyof Variants]} ${defaultClassName} ${className}`}
+      className={`${
+        variants[variant as keyof Variants]
+      } ${defaultClassName} ${className}`}
       href={href}
       target="_blank"
     >
@@ -29,7 +31,9 @@ const Button: FC<ButtonProps> = ({
     </a>
   ) : (
     <button
-      className={`${variants[variant as keyof Variants]} ${defaultClassName} ${className}`}
+      className={`${
+        variants[variant as keyof Variants]
+      } ${defaultClassName} ${className}`}
       onClick={onClick}
       disabled={disabled}
     >

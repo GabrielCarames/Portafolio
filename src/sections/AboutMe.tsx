@@ -9,7 +9,7 @@ const AboutMe: FC<SectionProps> = ({ sectionRef }) => {
   return (
     <main className="flex h-full w-full items-center justify-center">
       <div className="absolute top-0 w-full" ref={sectionRef}></div>
-      <article className="flex h-max w-full max-w-4xl flex-wrap-reverse items-center justify-center gap-10 px-8 md:px-0 md:max-w-7xl md:flex-nowrap md:justify-between">
+      <article className="flex h-max w-full max-w-4xl flex-wrap-reverse items-center justify-center gap-10 px-8 md:px-0 md:max-w-6xl md:flex-nowrap md:justify-between">
         <div className="w-full max-w-none text-left md:max-w-lg">
           <h1 className="text-4xl font-bold lg:text-5xl">Gabriel Caramés</h1>
           <h2 className="mt-2 text-xl font-bold text-green-300 lg:text-2xl">
