@@ -1,7 +1,7 @@
 import ScrollDownButton from "../components/ScrollDownButton"
 import SocialMediaList from "../components/SocialMediaList"
 import SeeCurriculum from "../components/SeeCurriculum"
-import selfie from "../../public/selfie.webp"
+import selfie from "../../public/selfie-3.webp"
 import type { FC } from "react"
 import type { SectionProps } from "../interfaces"
 
