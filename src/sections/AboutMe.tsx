@@ -13,13 +13,13 @@ const AboutMe: FC<SectionProps> = ({ sectionRef }) => {
         <div className="w-full max-w-none text-left md:max-w-lg">
           <h1 className="text-4xl font-bold lg:text-5xl">Gabriel Caramés</h1>
           <h2 className="mt-2 text-xl font-bold text-green-300 lg:text-2xl">
-            Desarrollador Front-end
+            Desarrollador Front-end en Inceptia AI
           </h2>
           <p className="mt-5 text-sm text-slate-100 lg:text-base">
-            Experiencia freelancer trabajando para clientes de todo el mundo
-            como desarrollador front-end, creando valor y convirtiendo proyectos
-            en realidad. Comprometido en el trabajo en equipo y en la
-            satisfacción de los clientes con el producto final.
+            +2 años de experiencia como front-end, creando valor y convirtiendo
+            proyectos en realidad. Comprometido en el trabajo en equipo y en la
+            satisfacción de los clientes con el producto final. Actualmente
+            trabajando en <b>Inceptia AI</b>
           </p>
           <div className="mt-7 md:mt-10 flex flex-wrap w-full gap-5">
             <SeeCurriculum />
